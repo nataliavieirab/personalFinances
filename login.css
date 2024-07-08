@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(150.76deg, #33535F -4.03%, #FFFFFF 82.17%);
+    min-height: 100vh;
+    height: fit-content;
+    padding-bottom: 185px;
+}
+
+
+.window-limit {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+
+}
+
+.content-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 22px;
+}
+
+.logo-nome {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo-cabecalho {
+    width: 82px;
+}
+
+.nome-cabecalho {
+    font-family: 'Righteous', sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-left: 22px;
+    margin: 0;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 38px;
+
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    transition: 0.2s;
+
+}
+
+.cabecalho-menu-item:hover {
+    color: #24282D;
+    cursor: grab;
+}
+
+
+.conteudo {
+
+    border-top: 0.4px solid #ffffff;
+    position: relative;
+}
+
+.sub-header {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.sub-header img{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 330px;
+}
+
+.sub-header div {
+    height: 120px;
+    background-color: #17282F;
+}
+
+
+.first-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-content a {
+    font-family: 'Righteous', sans-serif;
+    font-size: 32px;
+    color: #FFFFFF !important;
+ 
+}
+
+.second-content {
+    margin-left: 445px;
+    margin-right: 45px;
+    margin-top: 100px;
+    margin-bottom: 48px;
+    font-family: 'sarala';
+    font-size: 20px;
+    width: 40%;
+    height: 80vh;
+    display: flex;
+}
+
+.form-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.form-image img {
+    width: 31rem;
+}
+
+.form-title {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form h3 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 1000;
+    font-size: 36px;
+    color: #17282F !important;
+}
+
+.form {
+    width: 80%; 
+    background-color: #fff;
+    padding: 3rem;
+    margin-top: 60px;
+    margin-left: 160px;
+    border-radius: 10px;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-button {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.register-button button {
+    width: 100%;
+    border: none;
+    background-color: #33535F;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-button button:hover {
+    background-color: #17282F;
+}
+
+.register-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #17282F;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group {
+
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    width: 100%;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: 1px solid;
+    border-color: #33535F;
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 5px black; */
+    font-size: 0.8rem;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #33535F;
+}
+
+.input-box label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+.register-button button {
+    width: 100%;
+    border: none;
+    background-color: #33535F;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.register-button button:hover {
+    background-color: #17282F;
+}
+
+.register-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.cadastro {
+    padding-top: 50px;
+    margin-left: 131px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 22px;
+    color: #17282F !important;
+}
+
+.cadastro:hover {
+    color: #33535F;
+    cursor: grab;
+}
+
+.not-validated {
+    background-color: #80000054;
+}
+
+.validated {
+    background-color: #00801354;
+}
+
