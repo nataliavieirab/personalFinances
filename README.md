@@ -38,5 +38,5 @@ Apresenta uma tabela com os valores totais gastos por categoria.
 
 - HTML
 - CSS
-- JavaScript (uso do Local Storage para persistência local)
+- JavaScript (uso do Local Storage para persistência local de dados)
 
