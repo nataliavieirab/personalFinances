@@ -16,7 +16,7 @@ Apresenta três botões principais:
 
 ### Página de Login
 
-Responsável pelo login do usuário. Os dados de login são verificados com os dados cadastrados.
+Responsável pelo login do usuário. Os dados de login são verificados através dos dados cadastrais persistidos anteoriormente.
 
 ### Página de Cadastro
 
@@ -24,7 +24,7 @@ Permite que novos usuários se cadastrem. Verifica os inputs em tempo real e per
 
 ### Página de Transações
 
-Permite adicionar transações a uma tabela. Cada transação adicionada é persistida no navegador e renderizada na tabela ao recarregar a página.
+Permite adicionar transações em uma tabela. Cada transação adicionada é persistida no navegador e renderizada na tabela ao recarregar a página.
 
 ### Página de Categorias
 
@@ -38,5 +38,5 @@ Apresenta uma tabela com os valores totais gastos por categoria.
 
 - HTML
 - CSS
-- JavaScript (com uso do Local Storage para persistência local)
+- JavaScript (uso do Local Storage para persistência local)
 
