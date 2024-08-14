@@ -1,7 +1,8 @@
 # Controle de Finanças Pessoais
 
-Este projeto visa desenvolver um site simples para o controle de finanças pessoais, como trabalho final
-da disciplina de Tópícos Especiais em Tecnologias Digitais. 
+Neste projeto foi desenvolvido um site simples para o controle de finanças pessoais, como trabalho final
+da disciplina de Tópícos Especiais em Tecnologias Digitais do curso Tecnologias da
+Informação e Comunicação da UFSC. 
 
 ## Páginas/Funcionalidades
 
